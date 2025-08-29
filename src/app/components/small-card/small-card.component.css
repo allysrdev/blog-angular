@@ -1,0 +1,5 @@
+.container__small-card {
+  display: flex;
+  gap: 10px;
+  max-width: 900px;
+}

@@ -1,0 +1,23 @@
+.articles {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.articles__main {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articles__others {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

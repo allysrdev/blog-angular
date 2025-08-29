@@ -1,0 +1,20 @@
+.container__header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__nav > ul > li {
+  list-style: none;
+}
+
+.header__nav > ul > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header__nav > ul {
+  display: flex;
+  gap: 30px;
+}
