@@ -18,10 +18,27 @@ Trata-se de um **blog bem simples**, criado com o objetivo de aprender os concei
 
 ---
 
+## 📷 Screenshots
+
+### Página inicial
+
+![Página inicial](./src/assets/blog.png)
+
+### Página de detalhes
+
+![Página de detalhes](./src/assets/content.png)
+
 ## ▶️ Como executar o projeto
 
 1. **Clonar o repositório:**
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repo.git
+
+cd blog-angular
+
+npm install
+
+ng serve
+
 ```
