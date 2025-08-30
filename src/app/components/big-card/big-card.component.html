@@ -1,18 +1,13 @@
 <div class="container__card">
-  <div class="card__image">
-    <img
-      src="https://repository-images.githubusercontent.com/314186076/79a18fff-1aeb-4a12-9340-db81b383b5e7"
-      alt=""
-    />
-  </div>
-  <div class="card__title">
-    <h1>Novas ferramentas para atuar com Angular</h1>
-  </div>
-  <div class="card__description">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolore
-      aperiam quo totam in tempora hic asperiores non ipsum animi cum facere,
-      dolorem, tempore labore qui. Beatae earum cupiditate voluptas!
-    </p>
-  </div>
+  <a [routerLink]="['content', Id]">
+    <div class="card__image">
+      <img src="{{ photoCover }}" alt="" />
+    </div>
+    <div class="card__title">
+      <h1>{{ title }}</h1>
+    </div>
+    <div class="card__description">
+      <p>{{ description }}</p>
+    </div>
+  </a>
 </div>

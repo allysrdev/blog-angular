@@ -1,0 +1,12 @@
+.container__content {
+  width: 600px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content__image > img {
+  width: 600px;
+  height: 350px;
+}

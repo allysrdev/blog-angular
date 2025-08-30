@@ -1,12 +1,18 @@
-<app-menu-bar></app-menu-bar>
 <app-menu-title></app-menu-title>
 <div class="articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      [Id]="firstArticle.id"
+      photoCover="{{ firstArticle.photoCover }}"
+      title="{{ firstArticle.title }}"
+    ></app-big-card>
   </div>
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      *ngFor="let article of otherArticles"
+      [Id]="article.id"
+      photoCover="{{ article.photoCover }}"
+      title="{{ article.title }}"
+    ></app-small-card>
   </div>
 </div>
